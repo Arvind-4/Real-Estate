@@ -37,11 +37,7 @@ const ListView = () => {
             house.location.toLowerCase().includes(location) ||
             (house.rent >= min && house.rent <= max)
           );
-        if (min && max)
-          return (
-            house.rent >= min &&
-            house.rent <= max
-          );
+        if (min && max) return house.rent >= min && house.rent <= max;
         if (type && location && min && max)
           return (
             house.type.toLowerCase().includes(type) ||

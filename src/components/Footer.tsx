@@ -7,7 +7,10 @@ const Footer = () => {
             Real Estate
           </h6>
           <p>
-            The Real Estate company provides a platform for property buyers and sellers to locate properties of interest and source information about the process of buying and selling properties all over the world.
+            The Real Estate company provides a platform for property buyers and
+            sellers to locate properties of interest and source information
+            about the process of buying and selling properties all over the
+            world.
           </p>
         </div>
         <div className="mt-6 text-center lg:mt-0">

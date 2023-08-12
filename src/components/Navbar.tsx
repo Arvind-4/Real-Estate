@@ -32,37 +32,20 @@ const Navbar = () => {
         </div>
 
         <div
-          // :className="isOpen ? 'flex' : 'hidden'"
-          // {...(isOpen ? { className: 'flex' } : { className: 'hidden' })}
-
           className={
             isOpen
               ? 'flex flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0'
               : 'hidden flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0'
           }
         >
-          <a
-            className="text-sm text-gray-800 hover:text-blue-400"
-            href="index.html"
-          >
-            Home
-          </a>
-          <a
-            className="text-sm text-gray-800 hover:text-blue-400"
-            href="properties.html"
-          >
+          <a className="text-sm text-gray-800 hover:text-blue-400">Home</a>
+          <a className="text-sm text-gray-800 hover:text-blue-400">
             Properties
           </a>
-          <a
-            className="text-sm text-gray-800 hover:text-blue-400"
-            href="single-property.html"
-          >
+          <a className="text-sm text-gray-800 hover:text-blue-400">
             Single Properties
           </a>
-          <a
-            className="text-sm text-gray-800 hover:text-blue-400"
-            href="contact-us.html"
-          >
+          <a className="text-sm text-gray-800 hover:text-blue-400">
             Contact Us
           </a>
         </div>
